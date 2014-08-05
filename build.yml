@@ -1,0 +1,28 @@
+---
+#sdkversion: 5.0.0
+name: RhoDefaultApp
+version: '1.0'
+vendor: rhomobile
+build: debug
+applog: rholog.txt
+iphone:
+  configuration: "Release"
+  sdk: "iphoneos7.1"
+  provisionprofile: "iOS Team Provisioning Profile"
+  production:
+    mobileprovision_file: "./production/iOS_Team_Provisioning_Profile.mobileprovision"
+    certificate_file: "./production/Certificatesnew.p12"
+    certificate_password: "Rhoelements10"
+  codesignidentity: "iPhone Developer: Sunil Kumar (W8L77BLH6N)"
+  BundleIdentifier: "com.rhomobile.rhodefaultapp"
+  BundleURLScheme: "rhodefaultapp"
+wp8:
+  productid: f870e280-fea7-0131-d454-28206612f58f
+android:
+  manifest_template: AndroidManifest.erb
+  version: 2.3.3
+wm: ''
+extensions:
+- rhoconnect-client
+app_type: rhoelements
+capabilities: []
