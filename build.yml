@@ -1,5 +1,5 @@
----
-#sdkversion: 5.0.0
+#---
+#sdkversion: 5.0.20
 name: RhoDefaultApp
 version: '1.0'
 vendor: rhomobile
